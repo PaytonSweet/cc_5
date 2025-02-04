@@ -43,3 +43,9 @@ function applyDiscount(prices, discountRate){
 }
 let discountedPrices = applyDiscount(prices, 0.1); // creates new variable representing discount prices
 console.log(`Discounted Prices: ${discountedPrices}`); // logs discounted prices
+
+// Task 5: Filter Method
+
+let inventory = [5, 0 , 12, 8, 0]; // declares inventory array
+let stock = inventory.filter(inventory => inventory > 0); // filters out inventory not greater than 1
+console.log(`Inventory: ${stock}`); // logs filtered inventory
