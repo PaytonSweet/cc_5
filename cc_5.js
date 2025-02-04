@@ -33,3 +33,13 @@ cartItems.pop(); // removes item from the end
 cartItems.unshift("Ham"); // adds Ham to the beginning
 cartItems.shift(); // removes item from the beginning
 console.log(`Cart Items: ${cartItems}`); // logs cart items
+
+// Task 4: Map Method
+
+let prices = [100, 200, 300]; // declared prices variable
+
+function applyDiscount(prices, discountRate){
+    return prices.map(price => price * (1 - discountRate)); // mapped discount to each price
+}
+let discountedPrices = applyDiscount(prices, 0.1); // creates new variable representing discount prices
+console.log(`Discounted Prices: ${discountedPrices}`); // logs discounted prices
