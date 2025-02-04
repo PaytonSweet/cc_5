@@ -49,3 +49,9 @@ console.log(`Discounted Prices: ${discountedPrices}`); // logs discounted prices
 let inventory = [5, 0 , 12, 8, 0]; // declares inventory array
 let stock = inventory.filter(inventory => inventory > 0); // filters out inventory not greater than 1
 console.log(`Inventory: ${stock}`); // logs filtered inventory
+
+// Task 6: Reduce Method
+
+let sales = [500, 300, 200, 400]; // creates sales array
+let totalSales = sales.reduce((total, sale) => total + sale, 0); // combines all values in array
+console.log(`Total Sales: $${totalSales}`); // logs total sales
