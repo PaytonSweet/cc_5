@@ -70,3 +70,11 @@ function calculateTax(amount, taxRate) {
 };
 console.log(`Calculated Tax: $${calculateTax(1000, 0.07)}`); // logs the tax based on amount put in
 
+// Task 9: Function Expression
+
+// made function that calculates discount applied to an item
+function discountApply(price, discount){ // function named discount apply due to apply discount being used in task 4
+    return price - (price * (discount / 100));
+}
+console.log(`Discounted price: $ ${discountApply(100, 7)}`)
+// logs the discounted price
