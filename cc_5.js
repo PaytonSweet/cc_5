@@ -55,3 +55,9 @@ console.log(`Inventory: ${stock}`); // logs filtered inventory
 let sales = [500, 300, 200, 400]; // creates sales array
 let totalSales = sales.reduce((total, sale) => total + sale, 0); // combines all values in array
 console.log(`Total Sales: $${totalSales}`); // logs total sales
+
+// Task 7: find() Method
+
+const customers = ["Alice", "Bob", "Charlie", "David"];
+const cust = customers.find(customer => customer === "Charlie"); // finds Charlie in the array
+console.log(`Customer: ${cust}`);
