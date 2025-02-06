@@ -78,3 +78,9 @@ function discountApply(price, discount){ // function named discount apply due to
 }
 console.log(`Discounted price: $ ${discountApply(100, 7)}`)
 // logs the discounted price
+
+// Task 10: Arrow Function
+
+const calculatePoints = (purchaseAmount) => purchaseAmount / 10; // defines a function using arrow syntax
+ // divides purchase amount by 10 to determine points
+console.log(`Loyalty Points Redemeed: ${calculatePoints(140)}`); // logs loyalty points
