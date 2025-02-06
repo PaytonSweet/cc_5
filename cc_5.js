@@ -58,6 +58,15 @@ console.log(`Total Sales: $${totalSales}`); // logs total sales
 
 // Task 7: find() Method
 
-const customers = ["Alice", "Bob", "Charlie", "David"];
+const customers = ["Alice", "Bob", "Charlie", "David"]; // creates an arrary of customers
 const cust = customers.find(customer => customer === "Charlie"); // finds Charlie in the array
-console.log(`Customer: ${cust}`);
+console.log(`Customer: ${cust}`); //logs the found customer
+
+// Task 8: Function Declaration
+
+// This function will calculate tax based on the amount and tax rate
+function calculateTax(amount, taxRate) { 
+    return amount * taxRate;
+};
+console.log(`Calculated Tax: $${calculateTax(1000, 0.07)}`); // logs the tax based on amount put in
+
